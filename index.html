@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="sq">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Website design using HTML and CSS</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
+  </head>
+  <body>
+    <!--faqja kryesore-->
+    <section id="header">
+      <div class="container">
+        <img src="images/logo.png" alt="logoja e Website" class="logo" />
+        <div class="header-text">
+          <h1>
+            Qëllimi ynë:<br />
+            Të sjellim edukimin afër jush; <br />
+            Të krijojmë një individ të sigurtë për dijet e tij.
+          </h1>
+          <span class="square"></span>
+          <p>
+            Kurrë mos e konsideroni ndjekjen e një kursi si paaftësi për të
+            kapur gjërat shpejt. Ai është një investim të cilin jo të gjithë
+            kanë mundësi ta përballojnë.
+          </p>
+          <button class="common-btn">Mësoni më shumë</button>.
+          <div class="line">
+            <span class="line-1"></span><br />
+            <span class="line-2"></span><br />
+            <span class="line-3"></span>
+          </div>
+        </div>
+      </div>
+    </section>
+    <nav id="sideNav">
+      <ul>
+        <li><a href="#">Faqja kryesore</a></li>
+        <li><a href="#about">Rreth nesh</a></li>
+        <li><a href="#features">Karakteristika</a></li>
+        <li><a href="#courses">Kurset</a></li>
+        <li><a href="#offer">Ofertat</a></li>
+        <li><a href="#contact">Kontakt</a></li>
+      </ul>
+    </nav>
+    <img src="images/menu.png" alt="Menuja e faqes" id="menuBtn" />
+
+    <!--Rreth nesh-->
+    <section id="about">
+      <div class="about-left-col">
+        <img src="images/about.png" alt="Foto permbledhese per rreth nesh " />
+      </div>
+      <div class="about-right-col">
+        <div class="about-text">
+          <h1>Rreth nesh</h1>
+          <span class="square"></span>
+          <p>
+            Ne jemi një staf i ri dhe i përgatitur me specialistë nga më të
+            mirët e fushave përkatëse. Fokusi ynë kryesor është
+            <strong>individi</strong> dhe arritja e rezultateve më pozitive të
+            mundshme. <br /><br />
+          </p>
+          <div class="line">
+            <span class="line-1"></span><br />
+            <span class="line-2"></span><br />
+            <span class="line-3"></span>
+          </div>
+
+          <em
+            ><strong
+              ><q
+                >Kapaciteti për të mësuar është një dhuratë ndërsa dëshira për
+                të mësuar është një zgjedhje.</q
+              ></strong
+            >
+          </em>
+          &mdash; Brian Herbert
+        </div>
+      </div>
+    </section>
+
+    <!--karakteristikat-->
+    <section id="features">
+      <div class="feature-row">
+        <div class="feature-col">
+          <img src="images/pic-1.png" alt="LLampe mendimesh" />
+          <h4>Mëso kudo</h4>
+          <p>Mjafton të kesh një kompjuter,laptop,tablet ose një smartphone.</p>
+        </div>
+        <div class="feature-col">
+          <img src="images/pic-2.png" alt="foto truri" />
+          <h4>Mësues ekspertë</h4>
+          <p>
+            Mëso nga ekspertë të fushës që janë të apasionuar rreth mësimit.
+          </p>
+        </div>
+        <div class="feature-col">
+          <img src="images/pic-3.png" alt="foto rakete" />
+          <h4>Akses i palimituar</h4>
+          <p>Zgjidh se cfarë dëshiron të mësosh nga opsionet tona të shumta.</p>
+        </div>
+      </div>
+      <div class="feature-btn">
+        <div class="line">
+          <span class="line-1"></span><br />
+          <span class="line-2"></span><br />
+          <span class="line-3"></span>
+        </div>
+        <button class="common-btn">Startoni pa pagesë</button>
+      </div>
+    </section>
+    <!--kurset qe ofrohen-->
+    <section id="courses">
+      <div class="container course-row">
+        <div class="course-left-col">
+          <div class="course-text">
+            <h1>Zgjidhni Kurset tona më të famshme</h1>
+            <span class="square"></span>
+            <p>
+              Zgjedhja e kursit të duhur nis me pyetjen që cdo person duhet t'i
+              bëjë vetes se cfarë kërkon të studiojë. Ne ju ofrojmë një guidë të
+              kurseve më të ndjekura të vitit 2020.
+            </p>
+
+            <button class="common-btn">Shikoni të gjitha kurset</button>
+            <div class="line">
+              <span class="line-1"></span><br />
+              <span class="line-2"></span><br />
+              <span class="line-3"></span>
+            </div>
+          </div>
+        </div>
+        <div class="course-right-col">
+          <img src="images/course.png" alt="logoja e kurseve qe ofrohen " />
+        </div>
+      </div>
+    </section>
+
+    <!--Ofertat-->
+    <section id="offer">
+      <div class="about-left-col">
+        <img src="images/offer.png" alt="Foto permbledhese per rofertat" />
+      </div>
+      <div class="about-right-col">
+        <div class="about-text">
+          <h1>Dije pa fund,<br />Oferta pa fund</h1>
+          <span class="square"></span>
+          <p>
+            Zgjidhni një nga paketat tona ,të përshtatshme për cdokënd. Nëse
+            jeni student,kjo është faqja e duhur për ty.Për cdo kurs tonin ne
+            ofrojmë 10% ulje. Për më shumë,klikoni në butonin e mëposhtëm.
+          </p>
+          <button class="common-btn">Ofertat tona</button>
+          <div class="line">
+            <span class="line-1"></span><br />
+            <span class="line-2"></span><br />
+            <span class="line-3"></span>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--contact-->
+    <section id="contact">
+      <div class="container">
+        <div class="container contact-row">
+          <div class="contact-left-col">
+            <h1>
+              Regjistrohu për t'u bashkuar <br />
+              me komunitetin tonë.
+            </h1>
+            <form>
+              <input type="text" placeholder="Jepni emrin" />
+              <input type="email" placeholder="Jepni emailin" />
+              <input type="password" placeholder="Jepni passwordin" />
+              <div class="btn-box">
+                <button class="common-btn">Regjistrohu</button>
+                <button class="common-btn">Login</button>
+              </div>
+            </form>
+
+            <div class="line">
+              <span class="line-1"></span><br />
+              <span class="line-2"></span><br />
+              <span class="line-3"></span>
+            </div>
+          </div>
+          <div class="contact-right-col">
+            <img src="images/contact.png" alt="imazh kontakti" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--section-->
+    <section id="footer">
+      <div class="container footer-row">
+        <hr />
+        <div class="footer-left-col">
+          <div class="footer-links">
+            <div class="link-title">
+              <h4>Produktet</h4>
+              <small>Plani ynë</small>
+              <small>Startoni pa pagesë</small>
+            </div>
+            <div class="link-title">
+              <h4>Rreth nesh</h4>
+              <small>Request Demo</small>
+              <small>FAQs</small>
+            </div>
+            <div class="link-title">
+              <h4>Suporti</h4>
+              <small>Karakteristikat</small>
+              <small>Na kontaktoni</small>
+            </div>
+          </div>
+        </div>
+        <div class="footer-right-col">
+          <div class="footer-info">
+            <div class="copyright-text">
+              <small>support@Xypo.com</small><br />
+              <small>copyright 2021 Xypo</small>
+            </div>
+            <div class="footer-logo"></div>
+            <img src="images/logo.png" alt="Logoja e faqes" />
+            <button class="common-btn">English</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--social icons-->
+    <div class="social-icon">
+      <img src="images/facebook.png" alt="facebook.logo" />
+      <img src="images/twitter.png" alt="twitter logo" />
+      <img src="images/instagram.png" alt="instagram logo" />
+      <img src="images/linkedin.png" alt="linkedin logo" />
+    </div>
+    <script>
+      var menuBtn = document.getElementById("menuBtn");
+      var sideNav = document.getElementById("sideNav");
+      sideNav.style.right = "-250px";
+
+      menuBtn.onclick = function () {
+        if (sideNav.style.right == "-250px") {
+          //non-visible
+          sideNav.style.right = "0"; //visible
+        } else {
+          sideNav.style.right = "-250px";
+        }
+      };
+    </script>
+    <script>
+      var scroll = new SmoothScroll('a[href*="#"]');
+    </script>
+  </body>
+</html>
